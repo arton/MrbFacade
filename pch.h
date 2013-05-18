@@ -1,0 +1,11 @@
+﻿//
+// pch.h
+// Header for standard system include files.
+//
+
+#pragma once
+
+#include <collection.h>
+#include <string>
+#include <vccorlib.h>
+#include <Windows.h>
