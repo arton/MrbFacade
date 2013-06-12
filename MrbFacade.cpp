@@ -271,6 +271,7 @@ bool Mrb::Parse(Platform::String^ code)
 		mrb_parser_free(parser);
 		parser = NULL;
 	}
+	mrb_free(mrb, pc);
 	return ret;
 }
 
